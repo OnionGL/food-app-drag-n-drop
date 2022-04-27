@@ -7,7 +7,7 @@ const AppRouting = () => {
       <Header />
       <BrowserRouter>
       <Routes>
-         <Route path={"/foodlist"} element={<DragDrop />}/>
+         <Route path={"/"} element={<DragDrop />}/>
       </Routes>
       </BrowserRouter>
    </>
